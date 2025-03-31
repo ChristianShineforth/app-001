@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "web-build": "expo export",
+    "vercel-build": "npm run web-build",
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
